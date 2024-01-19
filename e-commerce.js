@@ -36,8 +36,6 @@ function shop() {
   console.log(intro);
   console.log(products);
 
-  // console.log(clothingItems['essentials']);
-
   console.log(
     'First, we have the "Essentials" which are ' +
       clothingItems['essentials'][0] +
@@ -81,19 +79,6 @@ function shop() {
       bottleItems['specialtyBottles'][1] +
       '. \nWe hope you are glad and satisfied with all these itemes.'
   );
-
-  // function choiceCategory() {
-  //   let productChoice = prompt('Enter the number of your choice: ');
-
-  //   console.log(productChoice);
-  //   if (productChoice === 1) {
-  //     console.log(clothingItems);
-  //   } else if (productChoice === 2) {
-  //     console.log(bottleItems);
-  //   } else {
-  //     choiceCategory();
-  //   }
-  // }
 }
 
 shop();
