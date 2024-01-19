@@ -82,5 +82,3 @@ function shop() {
 }
 
 shop();
-
-// Here's a test
