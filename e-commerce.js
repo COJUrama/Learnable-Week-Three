@@ -53,11 +53,11 @@ function shop() {
       clothingItems['accessory'][0] +
       '". \nAnd finally, among our clothing items, is ' +
       clothingItems['swimwear'][0] +
-      ' which is built specifically to be sustainable.\n'
+      ' which is built specifically to be sustainable.\n\n'
   );
 
   console.log(
-    "But that's not all. Elevate your daily routine with our amazing bottle selection - not just containers, but expressions of your commitment to a sustainable, chic lifestyle. \nMake every sip count.\n"
+    "But that's not all. Elevate your daily routine with our amazing bottle selection - not just containers, but expressions of your commitment to a sustainable, chic lifestyle. \nMake every sip count.\n\n"
   );
 
   console.log(
@@ -77,7 +77,7 @@ function shop() {
       bottleItems['specialtyBottles'][0] +
       ', and ' +
       bottleItems['specialtyBottles'][1] +
-      '. \nWe hope you are glad and satisfied with all these itemes.'
+      '. \n\nWe hope you are glad and satisfied with all these itemes.'
   );
 }
 
